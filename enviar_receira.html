@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head charset="UFT-8">
+		<title>Enviar Receita</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.png"></h1>
+
+				<nav>
+					<ul>
+						
+						<li><a href="index.html">Home</a></li>
+						<li><a href="receitas.html">Receitas</a></li>
+						<li><a href="enviar_receira.html">Enviar Receita</a></li>
+
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			
+			<form>
+
+				<label for="nomesobrenome"> Nome e Sobrenome</label>
+				<input type="text" id ="nomesobrenome" class="input-padrao">
+
+				<label for="email">E-mail:</label>
+				<input type="text" id="email" class="input-padrao">
+
+				<label for="utensilios">Utensílios:</label>
+				<textarea cols="70" rows="10" id="utensilios" class="input-padrao"></textarea>
+
+				<label for="igredientes">Igredientes:</label>
+				<textarea cols="70" rows="10" id="igredientes" class="input-padrao"></textarea>
+
+				<label for="modopreparo">Modo de preparo:</label>
+				<textarea cols="70" rows="10" id="modopreparo" class="input-padrao"></textarea>
+
+				<div>
+
+					<p>Qual o nivel da receita?</p>
+					
+					<label for="radio-facil"><input type="radio" name="contato" value="facil" id = "radio-facil">Facil</label>
+					
+
+					<label for="radio-Medio"><input type="radio" name="contato" value="Medio" id = "radio-Medio">Medio</label>
+					
+
+					<label for="radio-dificil"><input type="radio" name="contato" value="dificil" id = "radio-dificil">Dificil</label>
+					
+
+				</div>
+
+				<div>
+					
+					<label class="checkbox"><input type="checkbox">Gostaria de cadastrar seu e-mail para receber novar receitas?</label>
+
+				</div>				
+
+				<input type=submit value="Enviar formulario">
+
+			</form>
+
+		</main>
+		<footer>
+
+			<p class="mensagem">© Cozinhar é para todos.</p>
+
+		</footer>
+	</body>
+</html>
