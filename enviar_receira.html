@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head charset="UFT-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Panela Nova</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+		    <div class="caixa">
+		      <h1><img src="logo.png"></h1>
+
+		        <nav>
+		          <ul>
+		            
+		            <li><a href="index.html">Home</a></li>
+		            <li><a href="receitas.html">Receitas</a>
+		              <ul>                
+		                <li><a href="receitas.html">Facil</li>
+		                <li><a href="receitas.html">Medio</li>
+		                <li><a href="receitas.html">Dificil</li>
+		              </ul>
+		            </li>
+		              
+		            <li><a href="enviar_receira.html">Enviar Receita</a></li>
+
+		          </ul>
+		        </nav>
+		    </div>
+		  </header>
+		<main>
+			
+			<form>
+
+				<label for="nomesobrenome"> Nome e Sobrenome</label>
+				<input type="text" id ="nomesobrenome" class="input-padrao">
+
+				<label for="email">E-mail:</label>
+				<input type="text" id="email" class="input-padrao">
+
+				<label for="utensilios">Utensílios:</label>
+				<textarea cols="70" rows="10" id="utensilios" class="input-padrao"></textarea>
+
+				<label for="igredientes">Igredientes:</label>
+				<textarea cols="70" rows="10" id="igredientes" class="input-padrao"></textarea>
+
+				<label for="modopreparo">Modo de preparo:</label>
+				<textarea cols="70" rows="10" id="modopreparo" class="input-padrao"></textarea>
+				
+				<fieldset class="nivel">
+
+					<p>Qual o nivel da receita?</p>
+					
+					<input type="radio" name="tiponivel" value="facil" id="radio-facil"> Facil<br>
+
+					<input type="radio" name="tiponivel" value="Medio" id="radio-Medio"> Medio<br>
+
+					<input type="radio" name="tiponivel" value="dificil" id="radio-dificil"> Dificil<br>
+
+					<p class="recado">Tenha certeza do nivel! </p>
+
+				</fieldset>
+
+				<div>
+					
+					<label class="checkbox"><input type="checkbox">Gostaria de cadastrar seu e-mail para receber novar receitas?</label>
+
+				</div>				
+
+				<input type=submit value="Enviar formulario">
+
+			</form>
+
+		</main>
+
+
+
+		<footer>
+
+			<div class="boxpanela">
+					
+				<img id="panela" src="Panela.png">
+
+			</div>
+
+			<p class="mensagem">© Cozinhar é para todos.</p>
+
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,536 @@
+body{
+
+	font-family: 'Montserrat',sans-serif;
+
+}
+
+.titulo-principal{
+
+	font-size: 2em;
+	padding-left: 20px;
+	margin: 0 0 1em;
+	color: rgba(0,0,0,0.5);
+
+}
+
+main > p{
+
+	font-weight: bold;
+	background: #00FFFF;
+	text-align: center;
+	text-shadow: 3px 3px #00FF00;	
+
+}
+
+
+.titulo-principal:before{
+
+	content: "[ ";
+
+}
+
+.titulo-principal:after{
+
+	content: " ]";
+
+}
+
+#banner{
+
+	width: 100%;
+}
+
+.principal{
+
+	background: linear-gradient(#CCCCCC,white);
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+#apresentacaop1:after{
+
+	content: "🥘";
+
+}
+
+#apresentacaop1:before{
+
+	content: "🥘";
+
+}
+
+.utensilios_logo{
+
+	width: calc(20% - ((26px* 4) / 4));
+	float: left;
+	margin: 0 20px 20px 0;
+
+}
+
+.utensilios_logo + p {
+
+	background: blue;
+
+}
+
+.utensilios_logo ~ p {
+
+	background: yellow;
+
+}
+
+.principal p:not(#apresentacaop2){
+
+	background: orange;
+
+}
+
+#titulo{
+
+	font-size: 80px;
+	text-align: center;
+	background: #00FFFF;
+}
+
+p{
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+h4{
+
+	padding-left: 20px;
+
+}
+
+.video {
+
+	text-align: center;
+	width: 940px;
+	background: linear-gradient(white, #CCCCCC);
+
+
+}
+
+
+.listas{
+
+	display: inline-block;
+	background: #CCCCCC;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.listasvar{
+
+	display: inline-block;
+	vertical-align: top;
+	width:50%;
+	box-shadow: inset 0 0 30px #FF0000;
+
+}
+
+.config-lista{
+
+	margin: 10px;
+
+}
+
+
+
+.titulo-centralizado{
+
+	color: #FF4500;
+	text-align: center;
+	clear: left;
+
+}
+
+.titulo-lista{
+
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+	color: #228B22;
+
+}
+
+.itensu{
+
+	
+	font-style: italic;
+	font-size: 15px;
+	color: blue;
+	margin-left: 0%;
+	line-height: 1.5;
+}
+
+.itensu:first-child {
+
+	font-weight: bold;
+
+}
+.itensu:nth-child(2n){
+
+	font-weight: bold;
+
+}
+
+.itensu:before{
+
+	content: "🌟";
+
+}
+
+.itenst{
+
+	font-style: italic;
+	font-size: 15px;
+	color: orange;
+
+}
+
+
+
+.intesi{
+
+	font-style: italic;
+	font-size: 15px;
+	color: green;
+}
+
+.arrozbranco{
+
+	width:45%;
+	background: #CCCCCC;
+	margin: 20px auto;
+	opacity: 0.3;	
+	transition: 400ms;	
+	box-shadow: 10px 10px 10px 10px #000000;
+
+}
+
+.arrozbranco:hover{
+
+	opacity: 1;
+
+}
+
+.modo-preparo{
+
+	padding-left: 20px;
+	background: linear-gradient(#CCCCCC,white);
+
+}
+
+/*definições para a pagina de receitas*/
+
+header{
+
+	background: #492e14;
+	padding: 20px 0;
+
+}
+
+.caixa{
+
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+header img{
+
+	width: 940px;
+
+}
+
+
+nav {
+
+
+	position: relative;
+	margin: 0;
+	text-align: center;
+	
+
+}
+
+nav li{
+
+	display: inline;
+	margin: 0 10px 0 10px;
+	text-align: center;
+
+
+}
+
+nav li ul{
+
+	position: absolute;
+	top: 20px;
+	left: 330px;
+	background-color: #000000;
+	display: none;
+
+}
+
+nav li:hover ul {display: block;}
+
+nav li ul li {
+
+	display: block;
+	width: 200px;
+
+}
+
+nav ul{
+
+	padding: 0 0 0 0;
+
+}
+
+nav a{
+
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-style: 22px;
+	text-decoration: none;
+
+
+}
+
+nav a:hover {
+
+	color:#4B0082;
+	text-decoration: underline;
+
+
+}
+
+.produtos{
+
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.produtos li{
+
+
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin:1,5% 1,5% 1,5% 1.5%;
+	padding:30px 20px;
+	box-sizing: border-box;
+	border-color: #000000;
+	border-width: 5px;
+	border-style: double;
+	background: #7FFFD4;
+	border-radius: 5px;
+
+}
+
+.produtos li:hover{
+
+	border-color: #C78C19;
+
+}
+
+.produtos li:hover h2{
+
+	font-size: 34px;
+
+}
+
+.produtos img{
+
+	width: 100%;
+
+}
+
+.produtos h2{
+
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+.produtos descricao{
+
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+footer {
+
+	text-align: center;
+	background: url("rodape.png");
+	padding: 100px;
+}
+
+.mensagem{
+
+	color: 	#6959CD;
+	font-size: 40px;
+	margin: 150px 0 0 0;
+
+}
+/* Definições para pagina de envio de receita */
+
+main {
+
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+form {
+
+	margin:40px 0;
+
+}
+
+form label, form p {
+
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+
+}
+
+.input-padrao {
+
+	display: block;
+	margin: 0 0 10px;
+	padding: 10px 20px;
+	width: 50%;
+
+}
+
+form .nivel{
+
+	font-size: 20px;
+	margin: 10px 0;
+	border: 0;
+
+}
+.recado {
+
+	display: none;
+
+}
+
+#radio-dificil:checked ~ .recado {
+
+	display: block;
+	font-weight: bold;
+
+}
+
+
+#panela{
+
+	width: 200px;
+
+}
+
+.boxpanela{
+
+	position: absolute;
+
+	animation: teste 0.3s linear infinite alternate-reverse running;
+}
+
+.boxpanela:hover {
+
+	animation-play-state: paused;
+
+}
+
+@keyframes teste{
+
+	from {
+		transform: translate(20%, 0);
+	}
+
+	50%{
+		transform: translate(20%, 20%);
+	}
+
+
+	to {
+		transform: translate(0%, 20%);
+	}
+
+}
+
+@media screen and (max-width: 480px){
+
+	header, .caixa , main, .principal, .titulo_receita, .video, .listas, .modo-preparo, 
+	.produtos, footer{
+
+		width: auto;
+
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+
+		position: static;
+
+	}
+
+	header img{
+
+	width: 320px;
+
+	}
+
+	.listasvar,  .arrozbranco{
+
+		width: 100%;
+
+	}
+
+	.produtos li{
+
+		width: auto;
+		margin: 10px;
+
+	}
+
+	nav li ul{
+
+		top: 20px;
+		left: 20px;
+		
+	}
+	
+	.input-padrao{
+
+		width: 98%;
+		padding-left: 0px;
+		padding-right: 0px;
+
+	}
+
+
+
+
+}
